@@ -12,7 +12,7 @@ public class Ejercio1 {
 		
 		int valor = 0;
 		int sum=0;
-		
+		//
 		do {
 			System.out.print("Ingrese numero: ");
 			int valor1 = teclado.nextInt();
