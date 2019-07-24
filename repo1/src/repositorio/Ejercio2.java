@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Ejercio2 {
 	public Ejercio2() {
+		detectarvocales();
+		
+	}
+	public void detectarvocales() {
 		Scanner teclado = new Scanner(System.in);
 		System.out.print("Ingrese su nombre : ");
 		String nombre=teclado.next();
@@ -15,6 +19,5 @@ public class Ejercio2 {
 			}
 		}
 		System.out.println("Su nombre \""+nombre+"\" contiene las vocales "+resultado);
-		
 	}
 }
