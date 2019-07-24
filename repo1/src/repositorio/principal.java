@@ -21,7 +21,7 @@ public class principal {
 		case "4":
 			new Ejercio4();
 			break;
-		case "5":
+		case "5":	
 			new Ejercio5();
 			break;		
 		case "6":
