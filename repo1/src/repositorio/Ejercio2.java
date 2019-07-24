@@ -1,11 +1,8 @@
 package repositorio;
-
 import java.util.Scanner;
-
 public class Ejercio2 {
 	public Ejercio2() {
 		detectarvocales();
-		
 	}
 	public void detectarvocales() {
 		Scanner teclado = new Scanner(System.in);
